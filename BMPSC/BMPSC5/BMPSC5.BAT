@@ -1,0 +1,1 @@
+BMPSC5 %1.BMP %1.SC5

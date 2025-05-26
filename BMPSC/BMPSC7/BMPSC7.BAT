@@ -1,0 +1,1 @@
+BMPSC7 %1.BMP %1.SC7
