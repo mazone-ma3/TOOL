@@ -11,3 +11,6 @@ CHR　PC-88/98 BASICキャラクタエディタ+ツール、MSX2 BASICキャラ�
 GDC2　PC-98のGDCクロック切り替え
 
 MUCOMTEST　MUCOM88をLSX-Dodgersで鳴らす(PCM非対応)
+
+MSXLIST MSX-BASICのファイルをテキスト出力
+
