@@ -2,9 +2,9 @@
 
 各種ツール
 
-BMPC　.BMPをC言語形式に変換
+BMPC　.BMPをC言語形式に変換(AMIGA、C64)
 
-BMPSC　.BMPを.SC?形式に変換
+BMPSC　.BMPをMSXの.SC?形式にベタ変換(パレットなし)
 
 CHR　PC-88/98 BASICキャラクタエディタ+ツール、MSX2 BASICキャラクタエディタ&マップエディタ
 
