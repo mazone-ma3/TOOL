@@ -12,5 +12,5 @@ GDC2　PC-98のGDCクロック切り替え
 
 MUCOMTEST　MUCOM88をLSX-Dodgersで鳴らす(PCM非対応)
 
-MSXLIST MSX-BASICのファイルをテキスト出力
+MSXLIST MSX-BASICのファイルをテキスト出力(SJIS専用)
 
