@@ -14,4 +14,4 @@ MUCOMTEST　MUCOM88をLSX-Dodgersで鳴らす(PCM非対応)
 
 MSXLIST MSX-BASICのファイルをテキスト出力(SJIS専用)
 
-BMPTOOLS BITMAP-.SC5相互変換(パレット付き)、BITMAP PC-98ローダ(MSX2パレットでベタデータ化するものと、直接読む物) (Google Geminiと作成)
+BMPTOOLS BITMAP-.SC5相互変換(パレット付き)、BITMAP PC-98ローダ(ベタデータ化してMSX2パレットで読む物と、直接読む物) (Google Geminiと作成)
