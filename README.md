@@ -2,9 +2,9 @@
 
 各種ツール
 
-BMPC　.BMPをC言語形式に変換(AMIGA、C64)
+BMPC　.BMPをC言語形式に変換(AMIGA、C64)　plustaker2(PRJ_PLUS)で実際に使用。
 
-BMPSC　.BMPをMSXの.SC?形式にベタ変換(パレットなし)
+BMPSC　.BMPをMSXの.SC?形式にベタ変換(パレットなし)→バレット有りをBMPTOOLSに上げました。
 
 CHR　PC-88/98 BASICキャラクタエディタ+ツール、MSX2 BASICキャラクタエディタ&マップエディタ
 
