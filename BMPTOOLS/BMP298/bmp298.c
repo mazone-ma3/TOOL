@@ -127,6 +127,6 @@ int main(int argc, char *argv[]) {
 
 	free(planes); //, 4 * HEIGHT * WIDTH / 8);
 
-	printf("Done. Output size: %ld bytes\n", plane_num * 212 * 32);
+	printf("Done. Output size: %ld bytes\n", plane_num * HEIGHT * WIDTH / 8);
 	return 0;
 }
