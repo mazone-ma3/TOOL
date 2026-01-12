@@ -14,6 +14,6 @@ MUCOMTEST　MUCOM88をLSX-Dodgersで鳴らす(PCM非対応)
 
 MSXLIST MSX-BASICのファイルをテキスト出力(SJIS専用)
 
-BMPTOOLS 16色BITMAP-.SC5相互変換(パレット付き)、16色BITMAP PC-98ローダ(ベタデータ化してMSX2パレットで読む物と、直接読む物) (Google Geminiと作成)
+BMPTOOLS 16色BITMAP-.SC5相互変換(パレット付き)、16色BITMAP PC-98ローダ(ベタデータ化してMSX2パレットで読むBMP298/SHOW_98Wと、直接読むBMPLD98) (Google Geminiと作成) BMP298の出力プレーン数を可変に拡張。
 
 BIN2HEADER バイナリをCの配列形式に変換(Google Geminiと作成)　8個で改行するのと16個で改行するのを上げてあります。
