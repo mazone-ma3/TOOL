@@ -51,11 +51,16 @@ int main(int argc, char *argv[]) {
 	BITMAPINFOHEADER bih;
 
 	int WIDTH,HEIGHT;
+	int plane_num = 4;
 
 	if (argc < 3) {
-		printf("Usage: %s <input.bmp> <output.bin>\n", argv[0]);
+		printf("Usage: %s <input.bmp> <output.bin> [<plane numbers 1-3>]\n", argv[0]);
 		return 1;
 	}
+	if (argc >= 4)
+		plane_num=atoi(argv[3]);
+			if((plane_num > 4) || (plane_num < 1)) return 1;
+	printf("plane numbers:%d\n",plane_num);
 
 	FILE *fp = fopen(argv[1], "rb");
 	if (!fp) return 1;
@@ -117,11 +122,11 @@ int main(int argc, char *argv[]) {
 
 	// 出力 (B -> R -> G -> I の順で書き出し)
 	FILE *fout = fopen(argv[2], "wb");
-	fwrite(planes, 1, 4 * HEIGHT * WIDTH / 8, fout);
+	fwrite(planes, 1, plane_num * HEIGHT * WIDTH / 8, fout);
 	fclose(fout);
 
 	free(planes); //, 4 * HEIGHT * WIDTH / 8);
 
-	printf("Done. Output size: %ld bytes\n", 4 * 212 * 32);
+	printf("Done. Output size: %ld bytes\n", plane_num * 212 * 32);
 	return 0;
 }
