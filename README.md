@@ -19,3 +19,5 @@ BMPTOOLS 16色BITMAP-.SC5相互変換(パレット付き)、16色BITMAP PC-98ロ
 BIN2HEADER バイナリをCの配列形式に変換(Google Geminiと作成)　8個で改行するのと16個で改行するのを上げてあります。
 
 CHECK 簡易マシンチェック PC-88/X1/MSX(シリーズとFM音源の有無)
+
+COMMENT_TOOL テキストファイルから.sectionを消去して.bssを.dataに置換するツール(Google Geminiと作成) DJGPP3.4.6で出力したアセンブラソースをTOWNS-gcc クロスコンパイル環境のASに通すために使用。
