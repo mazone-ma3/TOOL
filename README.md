@@ -20,4 +20,4 @@ BIN2HEADER バイナリをCの配列形式に変換(Google Geminiと作成)　8�
 
 CHECK 簡易マシンチェック PC-88/X1/MSX(シリーズとFM音源の有無)
 
-COMMENT_TOOL テキストファイルから.sectionを消去して.bssを.dataに置換するツール(Google Geminiと作成) DJGPP3.4.6や4.1.2で出力したアセンブラソースをTOWNS-gcc クロスコンパイル環境のASに通すために使用。
+COMMENT_TOOL テキストファイルから.sectionを消去するツール(Google Geminiと作成) DJGPP3.4.6や4.1.2等で出力したアセンブラソースをTOWNS-gcc クロスコンパイル環境のASに通すために使用。
